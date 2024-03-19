@@ -1,10 +1,18 @@
 {
-  "site": {
-    "title": "My awesome website!",
-    "description": "Here is the description of my awesome website!"
+  "innovative": {
+    "title": "Innovative Visual Learning",
+    "description": "Dive into the world of harmony through our visually intuitive graphs, derived from Ph.D. research. Experience music in a way that's both educational and visually stunning."
   },
-  "home": {
-    "title": "Welcome to my awesome website!",
-    "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!"
+  "graph": {
+    "title": "Graphical Representation",
+    "description": "Explore musical concepts through interactive graphs, providing a unique perspective on harmony. This visual approach enhances your learning experience, making complex concepts easy to grasp."
+  },
+  "simple": {
+    "title": "Simple and Beautiful",
+    "description": "Discover the world of musical harmony into a beautiful, user-friendly interface. Enjoy a seamless learning journey, where simplicity meets elegance."
+  },
+  "offline": {
+    "title": "Offline Access",
+    "description": "No Web acces needed. All content is available offline."
   }
 }

@@ -1,10 +1,18 @@
 {
-  "site": {
-    "title": "Mon super site web !",
-    "description": "Voici la description de mon super site web !"
+  "innovative": {
+    "title": "Apprentissage visuel innovant",
+    "description": "Plongez dans le monde de l'harmonie musicale à travers notre méthode graphique innovante (graph), issus de recherches doctorales. Expérimentez la musique d'une manière à la fois éducative et visuellement ludique."
   },
-  "home": {
-    "title": "Bienvenue sur mon super site web !",
-    "subtitle": "Ceci est une chaine de charactères <0>plus compliquée</0> à traduire, il y a des <1>éléments html</1>, comme <2>un super lien</2> par exemple !"
+  "graph": {
+    "title": "Représentation graphique",
+    "description": "Explorez les concepts musicaux à travers des graphiques interactifs, offrant une perspective unique sur l'harmonie. Cette approche visuelle améliore votre expérience d'apprentissage, rendant des concepts complexes faciles à comprendre."
+  },
+  "simple": {
+    "title": "Une interface soignée pour un apprentissage simple",
+    "description": "Découvrez le monde de l'harmonie musicale à travers une interface belle et facile à utiliser. Profitez d'un parcours d'apprentissage fluide, où la simplicité rencontre l'élégance."
+  },
+  "offline": {
+    "title": "Pas besoin de connexion internet",
+    "description": "Tout le contenu est déja présent dans l'application."
   }
 }
