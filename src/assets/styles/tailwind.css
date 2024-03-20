@@ -9,6 +9,19 @@
   .bg-dark {
     background-color: var(--aw-color-bg-page-dark);
   }
+  
+  .text-accent-2 {
+    color: rgb(90, 128, 233)
+  }
+  
+  .icon-color {
+    color: var(--aw-color-bg-page);
+    background-color: var(--aw-color-accent);
+  }
+  
+  .secondary-color-text {
+    color: var(--aw-color-secondary);
+  }
   .bg-light {
     background-color: var(--aw-color-bg-page);
   }
