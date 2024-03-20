@@ -16,7 +16,7 @@ changeLanguage("en");
 const appStoreDownloadLink = "https://github.com/onwidget/astrowind";
 const googlePlayDownloadLink = "https://github.com/onwidget/astrowind";
 const metadata = {
-    title: "Mobile App Homepage",
+    title: t("appname.title"),
 };
 ---
 
@@ -26,16 +26,10 @@ const metadata = {
     <Header
       position="left"
       links={[
-        { text: 'Services', href: '#' },
-        { text: 'Features', href: '#' },
         { text: 'About', href: '#' },
-      ]}
-      actions={[
-        {
-          text: 'Download',
-          href: '#download',
-        },
-      ]}
+        { text: 'Privacy', href: '#' },
+      ]} 
+        }
       isSticky
       showToggleTheme
     />
@@ -44,23 +38,20 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="Mobile App Web Demo"
     image={{
       src: '~/assets/images/test3.png',
       alt: 'AstroWind Hero Image',
     }}
   >
     <Fragment slot="title">
-      <span class="text-accent dark:text-white highlight">AstroWind App</span>: <br /> professional websites <span
-        class="hidden xl:inline">made easy</span
-      >
+      <span class="text-accent dark:text-white highlight">{t("appname.title")}</span> <br /> {t("appname.subtitle")}
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Unlock boundless creativity at your fingertips: your gateway to innovative design.
+        {t("appname.description1")}
       </span>
-       Download now and embark on a journey to elevate your projects like never before.
+      {t("appname.description2")}
     </Fragment>
 
     <div slot="actions" class="flex max-w-sm gap-4">
@@ -112,7 +103,7 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">{t("features.title")}</h3>
     </Fragment>
   </Content>
 
@@ -120,8 +111,8 @@ const metadata = {
 
   <CallToAction
     id="download"
-    title="Download our app now!"
-    subtitle="Access a variety of stunning templates, simplify your creative process, and elevate your online presence."
+    title={t("action.title")}
+    subtitle={t("action.description")}
   >
     <div slot="actions" class="flex max-w-sm gap-4">
       <Button variant="link" href={appStoreDownloadLink}>

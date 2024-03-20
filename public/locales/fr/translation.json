@@ -1,7 +1,16 @@
 {
+  "appname": {
+    "title": "Jeu d'harmonie",
+    "subtitle": "Apprentissage musical facile",
+    "description1": "Découvrez le monde de l'harmonie musicale avec Harmony Game.",
+    "description2": "Téléchargez notre app innovante et plongez dans l'harmonie musicale."
+  },
+  "features": {
+    "title": "Fonctionnalités principales"
+  },
   "innovative": {
     "title": "Apprentissage visuel innovant",
-    "description": "Plongez dans le monde de l'harmonie musicale à travers notre méthode graphique innovante (graph), issus de recherches doctorales. Expérimentez la musique d'une manière à la fois éducative et visuellement ludique."
+    "description": "Plongez dans le monde de l'harmonie musicale à travers notre méthode graphique innovante (graph), issue de recherches doctorales. Expérimentez la musique d'une manière à la fois éducative et visuellement ludique."
   },
   "graph": {
     "title": "Représentation graphique",
@@ -14,5 +23,9 @@
   "offline": {
     "title": "Pas besoin de connexion internet",
     "description": "Tout le contenu est déja présent dans l'application."
+  },
+  "action": {
+    "title": "Téléchargez notre application!",
+    "description": "Explorez le monde de l'harmonie musicale avec notre application conçu pour comprendre l'harmonie de manière innovante et simple."
   }
 }
