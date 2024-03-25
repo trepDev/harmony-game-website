@@ -16,10 +16,13 @@ changeLanguage("en");
 const appStoreDownloadLink = "https://github.com/onwidget/astrowind";
 const googlePlayDownloadLink = "https://github.com/onwidget/astrowind";
 const getImg = () => {
-  if(i18next.language === "en") return "~/assets/images/theory-en-image.png"
-  if(i18next.language === "fr") return "~/assets/images/theory-fr-image.png"
-  if(i18next.language === "uk") return "~/assets/images/theory-uk-image.png"
-} 
+    if (i18next.language === "en")
+        return "~/assets/images/theory-en-image.png";
+    if (i18next.language === "fr")
+        return "~/assets/images/theory-fr-image.png";
+    if (i18next.language === "uk")
+        return "~/assets/images/theory-uk-image.png";
+};
 const metadata = {
     title: t("appname.title"),
 };
@@ -63,10 +66,6 @@ const metadata = {
     </Fragment>
 
     <div slot="actions" class="flex max-w-sm gap-4">
-      <Button variant="link" href={appStoreDownloadLink}>
-        <Image src={appStoreImg} alt="App Store Image" width={200} />
-      </Button>
-
       <Button variant="link" href={googlePlayDownloadLink}>
         <Image src={googlePlayImg} alt="Google Play Image" width={200} />
       </Button>
@@ -123,10 +122,6 @@ const metadata = {
     subtitle={t("action.description")}
   >
     <div slot="actions" class="flex max-w-sm gap-4">
-      <Button variant="link" href={appStoreDownloadLink}>
-        <Image src={appStoreImg} alt="App Store Image" width={200} />
-      </Button>
-
       <Button variant="link" href={googlePlayDownloadLink}>
         <Image src={googlePlayImg} alt="Google Play Image" width={200} />
       </Button>
