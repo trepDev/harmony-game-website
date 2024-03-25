@@ -8,14 +8,18 @@ import Button from "~/components/ui/Button.astro";
 import Image from "~/components/common/Image.astro";
 import appStoreImg from "~/assets/images/app-store.png";
 import googlePlayImg from "~/assets/images/google-play.png";
-import testImg from "~/assets/images/test.png";
-import { t, changeLanguage } from "i18next";
+import i18next, { t, changeLanguage } from "i18next";
 import { Trans } from "astro-i18next/components";
 
 changeLanguage("en");
 
 const appStoreDownloadLink = "https://github.com/onwidget/astrowind";
 const googlePlayDownloadLink = "https://github.com/onwidget/astrowind";
+const getImg = () => {
+  if(i18next.language === "en") return "~/assets/images/theory-en-image.png"
+  if(i18next.language === "fr") return "~/assets/images/theory-fr-image.png"
+  if(i18next.language === "uk") return "~/assets/images/theory-uk-image.png"
+} 
 const metadata = {
     title: t("appname.title"),
 };
@@ -40,13 +44,13 @@ const metadata = {
 
   <Hero2
     image={{
-      src: '~/assets/images/test3.png',
+      src: '~/assets/images/quiz-image.png',
       alt: 'AstroWind Hero Image',
     }}
   >
     <Fragment slot="title">
       <span class="text-accent highlight">{t("appname.title")}</span> <br /> 
-      <span class="text-accent-2 dark:text-white">{t("appname.subtitle")}<span>
+      <span class="text-accent-2 dark:text-white">{t("appname.subtitle")}</span>
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -102,8 +106,8 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1576153192621-7a3be10b356e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80',
-      alt: 'Colorful Image',
+      src: getImg(),
+      alt: 'AstroWind Hero Image',
     }}
   >
     <Fragment slot="content">
