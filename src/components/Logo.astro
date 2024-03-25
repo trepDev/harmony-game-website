@@ -1,7 +1,19 @@
 ---
 import { SITE } from '~/utils/config';
+import Image from "./common/Image.astro";
+
+const image = await Astro.slots.render('~/assets/images/quiz-image.png');
 ---
 
 <span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
-  🚀 {SITE?.name}
+  <Image
+    class="mx-auto rounded-md w-full inline -mt-2.5"
+    loading="lazy"
+    width={60}
+    height={60}
+  {...{
+    src: '~/assets/images/harmony-icon.png',
+    alt: 'AstroWind Hero Image',
+    }}
+  /> {SITE?.name}
 </span>
