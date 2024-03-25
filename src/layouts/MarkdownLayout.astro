@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import type { MetaData } from '~/types';
+import Header from "../components/widgets/Header.astro";
 
 export interface Props {
   frontmatter: {
@@ -17,6 +18,19 @@ const metadata: MetaData = {
 ---
 
 <Layout metadata={metadata}>
+  <Fragment slot="announcement"></Fragment>
+  <Fragment slot="header">
+    <Header
+      position="left"
+      links={[
+        { text: 'About', href: '/about' },
+        { text: 'Privacy', href: '#' },
+      ]}
+      }
+      isSticky
+      showToggleTheme
+    />
+  </Fragment>
   <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
     <h1 class="font-bold font-heading text-4xl md:text-5xl leading-tighter tracking-tighter">{frontmatter.title}</h1>
     <div

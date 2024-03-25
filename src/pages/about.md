@@ -1,9 +1,9 @@
 ---
-title: 'About Harmony Game & the team'
+title: 'About Harmony Game & us'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-## About Harmony Game
+## About <span class="text-accent-2 dark:text-accent">Harmony Game</span>
 
 ### Educational testing and development
 
@@ -14,27 +14,29 @@ The current version is developed from scratch by Trep and presents the similar f
 
 ## About us
 
-### Anna Shvets: Composer
+### <span class="text-accent-2 dark:text-accent">Anna Shvets</span>: Composer
 
 Anna Shvets is a classically trained music composer, winner of composition competitions with a Masters diploma in composition and PhD in musicology.  
 Author of 30 scientific publications, she participated in prestigious scientific conferences in Washington, London, Paris, Copenhagen and other cities in Europe, US and Asia.  
-To get more informations about Anna:
-- Her last musical album
-- Her personal blog
-- Her scientist papers
+To get more information about Anna:
 
-### TrepDev: Developer
+
+- <a href="https://snd.click/l04w" target="_blank">Her last musical album</a>
+- <a href="https://annashvetscomposer.wordpress.com/" target="_blank">Her personal blog</a>
+- <a href="https://www.researchgate.net/profile/Anna-Shvets-5" target="_blank">Her scientist papers</a>
+
+### <span class="text-accent-2 dark:text-accent">TrepDev</span>: Developer
 
 Full Stack Developer working mainly on the Java ecosystem, Angular & Flutter.  
-Checkout his GitHub profile.
+Checkout his <a href="https://github.com/trepDev" target="_blank">GitHub profile</a>.
 
 ## Thanks for helping on app color theme
 
-### J.C Henry: Motion Designer / Art Director
+### <span class="text-accent-2 dark:text-accent">J.C Henry</span>: Motion Designer / Art Director
 
-Checkout his personal website.
+Checkout his <a href="https://jiss.tv" target="_blank">personal website</a>.
 
-### Clémentine Laroche
+### <span class="text-accent-2 dark:text-accent">Clémentine Laroche</span>: Motion Designer / Art Director
 
-Checkout her personal website.
+Checkout her <a href="http://www.clementinelaroche.com/" target="_blank">personal website</a>.
 
