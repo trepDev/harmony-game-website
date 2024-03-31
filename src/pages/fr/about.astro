@@ -1,0 +1,18 @@
+---
+import Layout from '~/layouts/MarkdownLayout.astro'
+import { changeLanguage } from "i18next";
+
+const metadata = {
+  title: "A propos d'Harmony Game & l'équipe",
+};
+const pages = await Astro.glob("./about.md");
+let Content;
+for (const page of pages) {
+  Content = page.Content;
+}
+changeLanguage("fr");
+---
+
+<Layout metadata={metadata}>
+  <Content />
+</Layout>

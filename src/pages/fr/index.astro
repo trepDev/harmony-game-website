@@ -6,14 +6,12 @@ import CallToAction from "~/components/widgets/CallToAction.astro";
 import Content from "~/components/widgets/Content.astro";
 import Button from "~/components/ui/Button.astro";
 import Image from "~/components/common/Image.astro";
-import appStoreImg from "~/assets/images/app-store.png";
 import googlePlayImg from "~/assets/images/google-play.png";
 import i18next, { t, changeLanguage } from "i18next";
 import { Trans } from "astro-i18next/components";
 
 changeLanguage("fr");
 
-const appStoreDownloadLink = "https://github.com/onwidget/astrowind";
 const googlePlayDownloadLink = "https://github.com/onwidget/astrowind";
 const getImg = () => {
     if (i18next.language === "en")
@@ -35,7 +33,7 @@ const metadata = {
       position="left"
       links={[
         { text: 'About', href: '/about' },
-        { text: 'Privacy', href: '#' },
+        { text: 'Privacy', href: '/privacy' },
       ]} 
         }
       isSticky

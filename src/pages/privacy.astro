@@ -1,0 +1,15 @@
+---
+import Layout from '~/layouts/MarkdownLayout.astro'
+const metadata = {
+  title: 'Privacy policy',
+};
+const pages = await Astro.glob("./privacy.md");
+let Content;
+for (const page of pages) {
+    Content = page.Content;
+}
+---
+
+<Layout metadata={metadata}>
+  <Content />
+</Layout>

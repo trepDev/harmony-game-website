@@ -1,0 +1,15 @@
+---
+import Layout from '~/layouts/MarkdownLayout.astro'
+const metadata = {
+  title: 'About Harmony Game & us',
+};
+const pages = await Astro.glob("./about.md");
+let Content;
+for (const page of pages) {
+  Content = page.Content;
+}
+---
+
+<Layout metadata={metadata}>
+  <Content />
+</Layout>

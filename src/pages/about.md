@@ -1,8 +1,3 @@
----
-title: 'About Harmony Game & us'
-layout: '~/layouts/MarkdownLayout.astro'
----
-
 ## About <span class="text-accent-2 dark:text-accent">Harmony Game</span>
 
 ### Educational testing and development
