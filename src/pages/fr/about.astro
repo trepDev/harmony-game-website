@@ -7,7 +7,7 @@ changeLanguage("fr");
 const metadata = {
     title: t("about.title"),
 };
-const pages = await Astro.glob("./about.md");
+const pages = await Astro.glob("./about_content.md");
 let Content;
 for (const page of pages) {
     Content = page.Content;

@@ -7,7 +7,7 @@ changeLanguage("en");
 const metadata = {
     title: t("privacy.title"),
 };
-const pages = await Astro.glob("./privacy.md");
+const pages = await Astro.glob("./privacy_content.md");
 let Content;
 for (const page of pages) {
     Content = page.Content;
