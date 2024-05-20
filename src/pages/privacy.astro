@@ -1,7 +1,11 @@
 ---
-import Layout from '~/layouts/MarkdownLayout.astro'
+import { changeLanguage, t } from "i18next";
+import Layout from "~/layouts/MarkdownLayout.astro";
+
+changeLanguage("en");
+
 const metadata = {
-  title: 'Privacy policy',
+    title: t("privacy.title"),
 };
 const pages = await Astro.glob("./privacy.md");
 let Content;

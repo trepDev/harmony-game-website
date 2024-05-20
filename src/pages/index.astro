@@ -12,6 +12,7 @@ import { Trans } from "astro-i18next/components";
 
 changeLanguage("en");
 
+// TODO put te real playstore link
 const googlePlayDownloadLink = "https://github.com/onwidget/astrowind";
 const getImg = () => {
     if (i18next.language === "en")
@@ -32,8 +33,8 @@ const metadata = {
     <Header
       position="left"
       links={[
-        { text: 'About', href: '/about' },
-        { text: 'Privacy', href: '/privacy' },
+        { text: t("header.about"), href: '/about' },
+        { text: t("header.privacy"), href: '/privacy' },
       ]} 
         }
       isSticky

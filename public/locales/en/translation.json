@@ -27,5 +27,16 @@
   "action": {
     "title": "Download our app now!",
     "description": "Unlock the world of musical harmony with our groundbreaking learning app designed for those who aspire to understand harmony in a truly innovative way."
+  },
+  "about": {
+    "title": "About Harmony Game & us"
+  },
+  "privacy": {
+    "title": "Privacy policy"
+  },
+  "header": {
+    "about": "About",
+    "privacy": "Privacy"
   }
+  
 }

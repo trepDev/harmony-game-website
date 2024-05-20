@@ -3,7 +3,7 @@
     "title": "Jeu d'harmonie",
     "subtitle": "Apprentissage musical facile",
     "description1": "Découvrez le monde de l'harmonie musicale avec <0>Jeu d'harmonie</0>.",
-    "description2": "Téléchargez notre app innovante et plongez dans l'harmonie musicale."
+    "description2": "Téléchargez notre app innovante et plongez dans l'univers de l'harmonie musicale."
   },
   "features": {
     "title": "Fonctionnalités principales"
@@ -27,5 +27,15 @@
   "action": {
     "title": "Téléchargez notre application!",
     "description": "Explorez le monde de l'harmonie musicale avec notre application conçu pour comprendre l'harmonie de manière innovante et simple."
+  },
+  "about": {
+    "title": "A propos d'Harmony Game & de l'équipe"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité"
+  },
+  "header": {
+    "about": "A propos",
+    "privacy": "Politique de confidentialité"
   }
 }

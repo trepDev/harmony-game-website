@@ -1,5 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import { t } from "i18next";
 
 import type { MetaData } from '~/types';
 import Header from "../components/widgets/Header.astro";
@@ -17,8 +18,8 @@ const { metadata } = Astro.props;
     <Header
       position="left"
       links={[
-        { text: 'About', href: '/about' },
-        { text: 'Privacy', href: '/privacy' },
+        { text: t("header.about"), href: '/about' },
+        { text: t("header.privacy"), href: '/privacy' },
       ]}
       }
       isSticky

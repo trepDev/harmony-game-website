@@ -1,12 +1,16 @@
 ---
-import Layout from '~/layouts/MarkdownLayout.astro'
+import { changeLanguage, t } from "i18next";
+import Layout from "~/layouts/MarkdownLayout.astro";
+
+changeLanguage("en");
+
 const metadata = {
-  title: 'About Harmony Game & us',
+    title: t("about.title"),
 };
 const pages = await Astro.glob("./about.md");
 let Content;
 for (const page of pages) {
-  Content = page.Content;
+    Content = page.Content;
 }
 ---
 
