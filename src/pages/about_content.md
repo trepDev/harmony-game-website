@@ -35,3 +35,7 @@ Checkout his <a href="https://jiss.tv" target="_blank">personal website</a>.
 
 Checkout her <a href="http://www.clementinelaroche.com/" target="_blank">personal website</a>.
 
+## Contact
+
+contact@harmony-game.com
+
