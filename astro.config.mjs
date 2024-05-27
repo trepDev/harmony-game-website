@@ -37,7 +37,16 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     astroI18next(),
-    sitemap(),
+    sitemap(
+      {
+        filter(page) {
+          return page !== SITE.site + SITE.base + "about_content" &&
+            page !== SITE.site + SITE.base + "fr/about_content" &&
+            page !== SITE.site + SITE.base + "privacy_content" &&
+            page !== SITE.site + SITE.base + "fr/privacy_content"
+        }
+      }
+    ),
     mdx(),
     icon({
       include: {
