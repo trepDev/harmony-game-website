@@ -37,5 +37,11 @@
   "header": {
     "about": "A propos",
     "privacy": "Politique de confidentialité"
+  },
+  "404" : {
+    "title": "Erreur 404",
+    "main": "Désolé, cette page n'existe pas",
+    "submain": "Mais ne vous inquietez pas, il y a plein de choses à voir sur la page d'accueil.",
+    "backhome": "Retour à la page d'accueil"
   }
 }

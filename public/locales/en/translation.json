@@ -37,6 +37,11 @@
   "header": {
     "about": "About",
     "privacy": "Privacy"
+  },
+  "404" : {
+    "title": "Error 404",
+    "main": "Sorry, we couldn't find this page.",
+    "submain": "But dont worry, you can find plenty of other things on our homepage.",
+    "backhome": "Back to homepage"
   }
-  
 }
