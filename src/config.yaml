@@ -1,6 +1,6 @@
 site:
   name: Harmony Game
-  site: 'https://astrowind.vercel.app'
+  site: 'http://www.harmony-game.com'
   base: '/'
   trailingSlash: false
 
