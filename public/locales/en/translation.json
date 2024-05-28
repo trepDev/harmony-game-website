@@ -18,21 +18,21 @@
   },
   "simple": {
     "title": "Simple and Beautiful",
-    "description": "Discover the world of musical harmony into a beautiful, user-friendly interface. Enjoy a seamless learning journey, where simplicity meets elegance."
+    "description": "Discover the world of musical harmony through a beautiful, user-friendly interface. Enjoy a seamless learning journey where simplicity meets elegance."
   },
   "offline": {
     "title": "Offline Access",
-    "description": "No Web access needed. All content is available offline."
+    "description": "No web access needed. All content is available offline."
   },
   "action": {
     "title": "Download our app now!",
     "description": "Unlock the world of musical harmony with our groundbreaking learning app designed for those who aspire to understand harmony in a truly innovative way."
   },
   "about": {
-    "title": "About Harmony Game & us"
+    "title": "About Harmony Game & Us"
   },
   "privacy": {
-    "title": "Privacy policy"
+    "title": "Privacy Policy"
   },
   "header": {
     "about": "About",
@@ -41,12 +41,12 @@
   "404" : {
     "title": "Error 404",
     "main": "Sorry, we couldn't find this page.",
-    "submain": "But dont worry, you can find plenty of other things on our homepage.",
-    "backhome": "Back to homepage"
+    "submain": "But don't worry, you can find plenty of other things on our homepage.",
+    "backhome": "Back to Homepage"
   },
   "html_header": {
     "index_description": "Enhance your musical skills with Harmony Game! Free, innovative visual learning of harmony. Download for a fun, user-friendly experience.",
-    "about_description": "Learn about Harmony Game's development history and its tea : Anna Shvets, TrepDev, Jean-Christophe Henry & Clémentine Laroche",
-    "privacy_description": "Privacy policy: We do not collect any personal information from you. When errors occur, we only gather some technical information."
+    "about_description": "Learn about Harmony Game's development history and its team : Anna Shvets, TrepDev, Jean-Christophe Henry & Clémentine Laroche",
+    "privacy_description": "Privacy Policy: We do not collect any personal information from you. When errors occur, we only gather some technical information."
   }
 }

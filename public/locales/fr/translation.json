@@ -3,14 +3,14 @@
     "title": "Harmony Game",
     "subtitle": "Apprentissage musical facile",
     "description1": "Découvrez le monde de l'harmonie musicale avec <0>Harmony Game</0>.",
-    "description2": "Téléchargez notre app innovante et plongez dans l'univers de l'harmonie musicale."
+    "description2": "Téléchargez notre application innovante et plongez dans l'univers de l'harmonie musicale."
   },
   "features": {
     "title": "Fonctionnalités principales"
   },
   "innovative": {
     "title": "Apprentissage visuel innovant",
-    "description": "Plongez dans le monde de l'harmonie musicale à travers notre méthode graphique innovante (graph), issue de recherches doctorales. Expérimentez la musique d'une manière à la fois éducative et visuellement ludique."
+    "description": "Plongez dans le monde de l'harmonie musicale à travers notre méthode graphique innovante, issue de recherches doctorales. Expérimentez la musique d'une manière à la fois éducative et visuellement ludique."
   },
   "graph": {
     "title": "Représentation graphique",
@@ -22,11 +22,11 @@
   },
   "offline": {
     "title": "Pas besoin de connexion internet",
-    "description": "Tout le contenu est déja présent dans l'application."
+    "description": "Tout le contenu est déjà présent dans l'application."
   },
   "action": {
-    "title": "Téléchargez notre application!",
-    "description": "Explorez le monde de l'harmonie musicale avec notre application conçu pour comprendre l'harmonie de manière innovante et simple."
+    "title": "Téléchargez notre application !",
+    "description": "Explorez le monde de l'harmonie musicale avec notre application conçue pour comprendre l'harmonie de manière innovante et simple."
   },
   "about": {
     "title": "A propos"
@@ -40,13 +40,13 @@
   },
   "404" : {
     "title": "Erreur 404",
-    "main": "Désolé, cette page n'existe pas",
-    "submain": "Mais ne vous inquietez pas, il y a plein de choses à voir sur la page d'accueil.",
+    "main": "Désolé, cette page n'existe pas.",
+    "submain": "Mais ne vous inquiétez pas, il y a plein de choses à voir sur la page d'accueil.",
     "backhome": "Retour à la page d'accueil"
   },
   "html_header": {
-    "index_description": "Améliorez vos compétences musicales avec Harmony Game ! Apprentissage visuel et innovant de l'harmonie. Téléchargez notre application 100% gratuite.",
+    "index_description": "Améliorez vos compétences musicales avec Harmony Game ! Apprentissage visuel et innovant de l'harmonie. Téléchargez notre application 100 % gratuite.",
     "about_description": "Découvrez l'histoire du développement de Harmony Game et son équipe : Anna Shvets, TrepDev, Jean-Christophe Henry & Clémentine Laroche.",
-    "privacy_description": "Politique de confidentialité : Nous ne collectons aucune information personnelle. En cas d'erreur dans l’application, nous récupérons seulement des informations techniques."
+    "privacy_description": "Politique de confidentialité : Nous ne collectons aucune information personnelle. En cas d'erreur dans l'application, nous récupérons seulement des informations techniques."
   }
 }
