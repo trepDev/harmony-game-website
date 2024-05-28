@@ -20,7 +20,7 @@
   force = true
   conditions = {Language = ["fr"]}
 [[redirects]]
-  from = "/about"
+  from = "/privacy"
   to = "/fr/privacy"
   status = 301
   force = true
