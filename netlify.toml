@@ -11,17 +11,17 @@
   from = "/"
   to = "/fr"
   status = 301
-  force = false
+  force = true
   conditions = {Language = ["fr"]}
 [[redirects]]
   from = "/about"
   to = "/fr/about"
   status = 301
-  force = false
+  force = true
   conditions = {Language = ["fr"]}
 [[redirects]]
   from = "/about"
   to = "/fr/privacy"
   status = 301
-  force = false
+  force = true
   conditions = {Language = ["fr"]}
