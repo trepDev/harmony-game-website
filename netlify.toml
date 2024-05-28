@@ -12,19 +12,16 @@
   to = "/fr"
   status = 301
   force = false
-  query = {path = ":path"}
   conditions = {Language = ["fr"]}
 [[redirects]]
   from = "/about"
   to = "/fr/about"
   status = 301
   force = false
-  query = {path = ":path"}
   conditions = {Language = ["fr"]}
 [[redirects]]
   from = "/about"
   to = "/fr/privacy"
   status = 301
   force = false
-  query = {path = ":path"}
   conditions = {Language = ["fr"]}
