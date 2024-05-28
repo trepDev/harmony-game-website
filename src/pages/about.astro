@@ -5,7 +5,8 @@ import Layout from "~/layouts/MarkdownLayout.astro";
 changeLanguage("en");
 
 const metadata = {
-    title: t("about.title"),
+  title: t("about.title"),
+  description: t("html_header.about_description")
 };
 const pages = await Astro.glob("./about_content.md");
 let Content;

@@ -44,7 +44,9 @@
     "submain": "But dont worry, you can find plenty of other things on our homepage.",
     "backhome": "Back to homepage"
   },
-  "html": {
-    "description": "Enhance your musical skills with Harmony Game! Free, innovative visual learning of harmony. Download for a fun, user-friendly experience."
+  "html_header": {
+    "index_description": "Enhance your musical skills with Harmony Game! Free, innovative visual learning of harmony. Download for a fun, user-friendly experience.",
+    "about_description": "Learn about Harmony Game's development history and its tea : Anna Shvets, TrepDev, Jean-Christophe Henry & Clémentine Laroche",
+    "privacy_description": "Privacy policy: We do not collect any personal information from you. When errors occur, we only gather some technical information."
   }
 }

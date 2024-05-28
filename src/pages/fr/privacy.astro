@@ -5,7 +5,8 @@ import Layout from "~/layouts/MarkdownLayout.astro";
 changeLanguage("fr");
 
 const metadata = {
-    title: t("privacy.title"),
+  title: t("privacy.title"),
+  description: t("html_header.privacy_description")
 };
 const pages = await Astro.glob("./privacy_content.md");
 let Content;

@@ -44,7 +44,9 @@
     "submain": "Mais ne vous inquietez pas, il y a plein de choses à voir sur la page d'accueil.",
     "backhome": "Retour à la page d'accueil"
   },
-  "html": {
-    "description": "Améliorez vos compétences musicales avec Harmony Game ! Apprentissage visuel et innovant de l'harmonie. Téléchargez notre application 100% gratuite."
+  "html_header": {
+    "index_description": "Améliorez vos compétences musicales avec Harmony Game ! Apprentissage visuel et innovant de l'harmonie. Téléchargez notre application 100% gratuite.",
+    "about_description": "Découvrez l'histoire du développement de Harmony Game et son équipe : Anna Shvets, TrepDev, Jean-Christophe Henry & Clémentine Laroche.",
+    "privacy_description": "Politique de confidentialité : Nous ne collectons aucune information personnelle. En cas d'erreur dans l’application, nous récupérons seulement des informations techniques."
   }
 }
