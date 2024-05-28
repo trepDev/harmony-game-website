@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Harmony Game
     template: '%s'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Enhance your musical skills with Harmony Game! Free, innovative visual learning of harmony. Download for a fun, user-friendly experience."
   robots:
     index: true
     follow: true
