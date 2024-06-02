@@ -44,7 +44,14 @@ export default defineConfig({
             page !== SITE.site + SITE.base + "fr/about_content" &&
             page !== SITE.site + SITE.base + "privacy_content" &&
             page !== SITE.site + SITE.base + "fr/privacy_content"
-        }
+        },
+        i18n: {
+          defaultLocale: 'en',
+          locales: {
+            en: 'en-US', // The `defaultLocale` value must present in `locales` keys
+            fr: 'fr-FR',
+          },
+        },
       }
     ),
     mdx(),
