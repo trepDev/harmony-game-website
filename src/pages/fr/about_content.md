@@ -17,7 +17,7 @@ Plus d'informations à propos d'Anna :
 
 
 - <a href="https://snd.click/l04w" target="_blank">Son dernier album musical</a>
-- <a href="https://annashvetscomposer.wordpress.com/" target="_blank">Son blog personnel</a>
+- <a href="https://annashvetscomposer.com" target="_blank">Son blog personnel</a>
 - <a href="https://www.researchgate.net/profile/Anna-Shvets-5" target="_blank">Ses publications scientifiques</a>
 
 ### <span class="text-accent-2 dark:text-accent">TrepDev</span>: Developpeur

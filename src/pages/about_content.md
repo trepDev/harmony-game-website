@@ -2,7 +2,9 @@
 
 ### Educational testing and development
 
-The system of graphs in music harmony as well as the chord colour mapping was successfully tested in pedagogical experiments with students of music departments in France and Poland via interactive web applications.  
+The graph-based system for musical harmony, as well as the chord colour mapping, was successfully tested in pedagogical experiments with students in music departments in France and Poland using interactive web applications.  
+You can see a practical use case in this video: https://www.youtube.com/watch?v=GR9F_A_sT2o
+
 The first mobile game incorporating this learning method was developed by Anna in 2016 and received the 2nd prize (the 1st prize was not attributed) from the ELLESgorithme  competition for the best mobile learning application written by a female coder.  
 The current version is developed from scratch by Trep and presents the similar functionalities as the 2016 version with version with graphical improvements and two more languages.
 
@@ -17,7 +19,7 @@ To get more information about Anna:
 
 
 - <a href="https://snd.click/l04w" target="_blank">Her last musical album</a>
-- <a href="https://annashvetscomposer.wordpress.com/" target="_blank">Her personal blog</a>
+- <a href="https://annashvetscomposer.com" target="_blank">Her personal blog</a>
 - <a href="https://www.researchgate.net/profile/Anna-Shvets-5" target="_blank">Her scientist papers</a>
 
 ### <span class="text-accent-2 dark:text-accent">TrepDev</span>: Developer
