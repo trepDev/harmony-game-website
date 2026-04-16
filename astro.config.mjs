@@ -11,6 +11,7 @@ import icon from 'astro-icon';
 import compress from 'astro-compress';
 import tasks from './src/utils/tasks';
 import astroI18next from "astro-i18next";
+import embeds from 'astro-embed/integration';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter.mjs';
 
@@ -54,6 +55,7 @@ export default defineConfig({
         },
       }
     ),
+    embeds(),
     mdx(),
     icon({
       include: {

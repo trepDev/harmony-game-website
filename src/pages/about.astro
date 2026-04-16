@@ -8,7 +8,7 @@ const metadata = {
   title: t("about.title"),
   description: t("html_header.about_description")
 };
-const pages = await Astro.glob("./about_content.md");
+const pages = await Astro.glob("./about_content.mdx");
 let Content;
 for (const page of pages) {
     Content = page.Content;
