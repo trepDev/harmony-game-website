@@ -12,6 +12,8 @@ La version actuelle est développée de toutes pièces par TrepDev et présente 
 ### <span class="text-accent-2 dark:text-accent">Anna Shvets</span>: Compositrice
 
 Anna Shvets est une compositrice de musique classique, gagnante de plusieurs concours de compositions. Elle possède un Master en composition ainsi qu'un doctorat en musicologie.  
+Vous pouvez voir un cas pratique de l'utilisation de l'application dans la vidéo suivante : https://www.youtube.com/watch?v=GR9F_A_sT2o
+
 Auteure d'une trentaine de publications scientifiques, elle a participé à de prestigieuses conférences scientifiques internationnales (Washington, Londres,Paris, Copenhagen ainsi que d'autres villes en Europe, Etats-unis et Asie).  
 Plus d'informations à propos d'Anna :
 
